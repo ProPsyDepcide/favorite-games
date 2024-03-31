@@ -1,0 +1,27 @@
+body{
+    background-attachment: fixed;
+    background-image: url('https://catherineasquithgallery.com/uploads/posts/2021-12/1639735132_3-catherineasquithgallery-com-p-fon-rozovie-kruzhochki-8.jpg');
+}
+
+div{
+    width: 80%;
+    margin: 10px;
+    background-color: pink;
+    border: 20px solid pink;
+    padding: 10px;
+    margin-left: 100px;
+}
+
+div>img{
+    width: 100%;
+}
+
+a{
+    display: inline-block;
+    color: black;
+}
+
+div>h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+}

@@ -1,0 +1,39 @@
+h1{
+    width: 360px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: pink;
+    border: solid 10px pink;
+    border-radius: 10px;
+    margin-left: 415px;
+}
+
+body{
+    background-attachment: fixed;
+    background-image: url('https://top-fon.com/uploads/posts/2023-01/1674695855_top-fon-com-p-fon-dlya-prezentatsii-v-goroshek-161.png');
+}
+
+div{
+    transition: 0.3s;
+    margin: 10px;
+    border: 5px solid pink;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: pink;
+    width: 350px;
+    display: inline-block;
+}
+
+div > img{
+    width: 100%;
+}
+
+div:hover{
+    width: 400px;
+    transform: scale(1.1);
+
+}
+
+div > h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
